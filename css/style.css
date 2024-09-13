@@ -1,10 +1,6 @@
-/* Global Colors */
 :root{ 
     --nav-Blue: #0000ff;
 }
-
-
-/* Global Colors End */
 * {
     padding: 0;
     margin: 0;
@@ -75,8 +71,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/index.html');
-    src: url('../font/indexd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Light.html') format('woff2'), url('../font/Poppins-Light-2.html') format('woff'), url('../font/Poppins-Light-3.html') format('truetype'), url('../font/Poppins-Light-4.html#Poppins-Light') format('svg');
+    src: url('../font/');
+    src: url('../font/?#iefix') format('embedded-opentype'), url('../font/Poppins-Light.woff2') format('woff2'), url('../font/Poppins-Light.woff') format('woff'), url('../font/Poppins-Light.ttf') format('truetype'), url('../font/Poppins-Light.svg#Poppins-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -84,8 +80,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-Bold.html');
-    src: url('../font/Poppins-Boldd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Bold-2.html') format('woff2'), url('../font/Poppins-Bold-3.html') format('woff'), url('../font/Poppins-Bold-4.html') format('truetype'), url('../font/Poppins-Bold-5.html#Poppins-Bold') format('svg');
+    src: url('../font/Poppins-Bold.eot');
+    src: url('../font/Poppins-Bold.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-Bold.woff2') format('woff2'), url('../font/Poppins-Bold.woff') format('woff'), url('../font/Poppins-Bold.ttf') format('truetype'), url('../font/Poppins-Bold.svg#Poppins-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -93,8 +89,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-Medium.html');
-    src: url('../font/Poppins-Mediumd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Medium-2.html') format('woff2'), url('../font/Poppins-Medium-3.html') format('woff'), url('../font/Poppins-Medium-4.html') format('truetype'), url('../font/Poppins-Medium-5.html#Poppins-Medium') format('svg');
+    src: url('../font/Poppins-Medium.eot');
+    src: url('../font/Poppins-Medium.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-Medium.woff2') format('woff2'), url('../font/Poppins-Medium.woff') format('woff'), url('../font/Poppins-Medium.ttf') format('truetype'), url('../font/Poppins-Medium.svg#Poppins-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -102,8 +98,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-SemiBold.html');
-    src: url('../font/Poppins-SemiBoldd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-SemiBold-2.html') format('woff2'), url('../font/Poppins-SemiBold-3.html') format('woff'), url('../font/Poppins-SemiBold-4.html') format('truetype'), url('../font/Poppins-SemiBold-5.html#Poppins-SemiBold') format('svg');
+    src: url('../font/Poppins-SemiBold.eot');
+    src: url('../font/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-SemiBold.woff2') format('woff2'), url('../font/Poppins-SemiBold.woff') format('woff'), url('../font/Poppins-SemiBold.ttf') format('truetype'), url('../font/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -111,8 +107,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-ExtraLight.html');
-    src: url('../font/Poppins-ExtraLightd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-ExtraLight-2.html') format('woff2'), url('../font/Poppins-ExtraLight-3.html') format('woff'), url('../font/Poppins-ExtraLight-4.html') format('truetype'), url('../font/Poppins-ExtraLight-5.html#Poppins-ExtraLight') format('svg');
+    src: url('../font/Poppins-ExtraLight.eot');
+    src: url('../font/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-ExtraLight.woff2') format('woff2'), url('../font/Poppins-ExtraLight.woff') format('woff'), url('../font/Poppins-ExtraLight.ttf') format('truetype'), url('../font/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -120,8 +116,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-ExtraBold.html');
-    src: url('../font/Poppins-ExtraBoldd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-ExtraBold-2.html') format('woff2'), url('../font/Poppins-ExtraBold-3.html') format('woff'), url('../font/Poppins-ExtraBold-4.html') format('truetype'), url('../font/Poppins-ExtraBold-5.html#Poppins-ExtraBold') format('svg');
+    src: url('../font/Poppins-ExtraBold.eot');
+    src: url('../font/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-ExtraBold.woff2') format('woff2'), url('../font/Poppins-ExtraBold.woff') format('woff'), url('../font/Poppins-ExtraBold.ttf') format('truetype'), url('../font/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -129,8 +125,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-Regular.html');
-    src: url('../font/Poppins-Regulard41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Regular-2.html') format('woff2'), url('../font/Poppins-Regular-3.html') format('woff'), url('../font/Poppins-Regular-4.html') format('truetype'), url('../font/Poppins-Regular-5.html#Poppins-Regular') format('svg');
+    src: url('../font/Poppins-Regular.eot');
+    src: url('../font/Poppins-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-Regular.woff2') format('woff2'), url('../font/Poppins-Regular.woff') format('woff'), url('../font/Poppins-Regular.ttf') format('truetype'), url('../font/Poppins-Regular.svg#Poppins-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -138,8 +134,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-Thin.html');
-    src: url('../font/Poppins-Thind41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Thin-2.html') format('woff2'), url('../font/Poppins-Thin-3.html') format('woff'), url('../font/Poppins-Thin-4.html') format('truetype'), url('../font/Poppins-Thin-5.html#Poppins-Thin') format('svg');
+    src: url('../font/Poppins-Thin.eot');
+    src: url('../font/Poppins-Thin.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-Thin.woff2') format('woff2'), url('../font/Poppins-Thin.woff') format('woff'), url('../font/Poppins-Thin.ttf') format('truetype'), url('../font/Poppins-Thin.svg#Poppins-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -147,8 +143,8 @@ ul {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins-Black.html');
-    src: url('../font/Poppins-Blackd41d.html?#iefix') format('embedded-opentype'), url('../font/Poppins-Black-2.html') format('woff2'), url('../font/Poppins-Black-3.html') format('woff'), url('../font/Poppins-Black-4.html') format('truetype'), url('../font/Poppins-Black-5.html#Poppins-Black') format('svg');
+    src: url('../font/Poppins-Black.eot');
+    src: url('../font/Poppins-Black.eot?#iefix') format('embedded-opentype'), url('../font/Poppins-Black.woff2') format('woff2'), url('../font/Poppins-Black.woff') format('woff'), url('../font/Poppins-Black.ttf') format('truetype'), url('../font/Poppins-Black.svg#Poppins-Black') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -540,7 +536,7 @@ span.author-role {
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 0 0px 12px 0 !important;
 }
 
@@ -1068,7 +1064,7 @@ i.info-icon {
 }
 
 .green-check:checked[type=radio] {
-    background-image: url(../img/check-radio-icon.html);
+    background-image: url(../img/check-radio-icon.png);
     background-size: 100% 100% !important;
     border: none !important;
     border-color: transparent !important;
@@ -1076,7 +1072,7 @@ i.info-icon {
 }
 
 .all-check:checked[type=radio] {
-    background-image: url(../img/all-radio-icon.html);
+    background-image: url(../img/all-radio-icon.png);
     background-size: 100% 100% !important;
     border: none !important;
     border-color: transparent !important;
@@ -1084,7 +1080,7 @@ i.info-icon {
 }
 
 .red-check:checked[type=radio] {
-    background-image: url(../img/exclamation.html);
+    background-image: url(../img/exclamation.png);
     background-size: 100% 100% !important;
     border: none !important;
     border-color: transparent !important;
@@ -1092,7 +1088,7 @@ i.info-icon {
 }
 
 .blue-check:checked[type=checkbox] {
-    background-image: url(../img/blue-check-icon.html);
+    background-image: url(../img/blue-check-icon.png);
     background-size: 100% 100% !important;
     border: none !important;
     border-color: transparent !important;
@@ -1123,7 +1119,22 @@ i.info-icon {
 }
 
 .select2 {
-    width: 100% !important;
+    width: fit-content !important;
+    min-width: 150px !important;
+}
+#overview_container .select2-container--default .select2-selection--single {
+    border: none !important;
+    border-bottom: 1px solid #DEDEDE !important;
+    border-radius: 1px;
+}
+#overview_container .select2-container--default.select2-container--disabled .select2-selection--single {
+    background-color: hsla(0, 0%, 0%, 0);
+}
+#overview_container .ms-options-wrap > button:focus, #overview_container .ms-options-wrap > button {
+    border: none !important;
+    width: fit-content;
+    min-width: 150px;
+    border-bottom: 1px solid #DEDEDE !important;
 }
 
 .scope_select-box .select2-container .select2-selection--single {
@@ -1138,6 +1149,8 @@ i.info-icon {
     width: 20px;
     transform: translateY(-50%);
 }
+
+
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     font-family: 'Poppins';
@@ -1719,7 +1732,7 @@ table td .select2-container {
 }
 
 .accordion-button::after {
-    background-image: url(../img/accordian-down-arrow.html) !important;
+    background-image: url(../img/accordian-down-arrow.png) !important;
     background-size: 90% !important;
     position: absolute;
     content: "";
@@ -1728,7 +1741,7 @@ table td .select2-container {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../img/accordian-down-up.html) !important;
+    background-image: url(../img/accordian-down-up.png) !important;
     background-size: 90% !important;
     position: absolute;
     content: "";
@@ -2113,7 +2126,7 @@ table td .select2-container {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../../../../laravel.thedevelopment.in/business_portal/assets/business_assets/img/loading.gif') 50% 50% no-repeat #fff;
+    background: url('https://laravel.thedevelopment.in/business_portal/assets/business_assets/img/loading.gif') 50% 50% no-repeat #fff;
 }
 
 .div_requirements_progress {
@@ -3471,9 +3484,9 @@ table.scope-table td:nth-child(1) {
 
 table.scope-table td:nth-child(2) {
     width: 50%;
-    background-color: #f4faf7;
+    background-color: #f5f9f7;
     padding: 12px;
-    height: 64px;
+    min-height: 3.5;
 }
 
 /* table.scope-table tr.nice_to_have td:nth-child(1) {
@@ -3636,11 +3649,10 @@ tr.not_relevent td {
 
 .digi-scope-box {
     width: 100%;
-    border: 1px solid #d9d9d9;
+    border: 1px solid hsl(0, 0%, 90%);
     border-radius: 10px;
     padding: 10px 15px;
     position: relative;
-    border-top: 2px solid;
 }
 
 /* .digi-scope-box::after{
